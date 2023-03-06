@@ -87,7 +87,7 @@
 						},
 						{
 							"internalType": "address",
-							"name": "reciever",
+							"name": "receiver",
 							"type": "address"
 						},
 						{

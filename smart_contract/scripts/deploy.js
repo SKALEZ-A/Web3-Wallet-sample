@@ -20,3 +20,5 @@ const runMain = async () => {
 runMain();
 
 // deployed contract address: 0x5eBaD564891FcA3AAe82CA17C8a28E599D19c04e
+
+// new deployed contract:  0xcffbfeA7D0037Bb78aD7464937E526FFD5849637

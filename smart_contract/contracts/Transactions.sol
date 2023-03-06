@@ -9,7 +9,7 @@ contract Transactions {
 
     struct TransferStruct {
         address sender;
-        address reciever;
+        address receiver;
         uint amount;
         string message;
         uint256 timestamp;
@@ -25,11 +25,11 @@ contract Transactions {
     }
 
     function getAllTransactions() public view returns (TransferStruct[] memory) {
-
+        return transactions;
     }
 
     function getTransactionCount() public view returns (uint256) {
-
+        return transactionCount;
     }
 
 }
