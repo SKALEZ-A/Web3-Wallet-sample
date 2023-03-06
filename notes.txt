@@ -1,0 +1,38 @@
+
+CLIENT 
+- create vite app and install dependencies 
+
+- install tailwind css for vite 
+
+- initialize npm for the smart_contract folder
+
+- add all components to an index file 
+
+- install react-icons ethers
+
+SMART_CONTRACT
+npm install --save-dev hardhat @nomiclabs/hardhat-waffl
+e ethereum-waffle chai @nomiclabs/hardhat-ethers ethers
+
+npx hardhat
+
+* To check if all is running smoothly: npx hardhat test
+
+- Open new smart contract file under contracts
+
+- Create Transactions solidity file
+
+- write script to deploy and connect smart contract to the blockchain
+
+- add test ethereum and open alchemy to copy API key
+
+- add alchemy API key to hardhat.config.js file requiring hardhat waffle
+
+- generate contract address using:
+     npx hardhat run scripts/deploy.js --network goerli
+
+- add ABI and contract address as constants
+
+- create functionality to connect wallet to metamask in client folder
+
+- create a utility file and function to shorten the address that will be displayed
